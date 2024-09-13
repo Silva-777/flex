@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+p{
+    background-color: pink;
+}
+//propriedade: display:flex
+// coloca todos os filhos um do lado do outro
+// jusify-content - alinhar no eixo x 
+.container{
+    border: solid violet;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgba(242, 140, 140, 0.648);
+    border: solid;
+}
+
+section{
+    margin: 10px 0px;
+}
+
+.container1{
+    border: solid violet;
+    display: flex;
+    justify-content: end;
+}
+
+.container2{
+    border: solid violet;
+    display: flex;
+    justify-content: space-around;
+    // space-around: 
+}
+
+.container3{
+    border: solid violet;
+    display: flex;
+    justify-content: space-between;
+    // space-around: 
+}
